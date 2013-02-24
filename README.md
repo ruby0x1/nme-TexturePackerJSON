@@ -14,7 +14,7 @@ Please don't use this sprite as your own, it is just for demonstration purposes.
 - Adds the ability to parse a separate JSON for the behaviors(animations) to add
 - Reads JSON from [TexturePacker](http://www.codeandweb.com/texturepacker)
 
-**Example project included**, to run the example :    
+**Example project included**, [View example](http://underscorediscovery.com/dev/TexturePackerJSON), but to run the example :    
 
 - haxelib install hxJson2
 - nme test mac/windows/whatever

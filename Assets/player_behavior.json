@@ -1,0 +1,17 @@
+{           
+    "idle" : {
+        "frames":[ 1,1,1, 2, 3, 3, 2, 1,1,1,1,1,1,1,1,1,1,1,1 ,1,1,1,1  ],
+        "speed": 10,
+        "loop" : true                      
+    }, 
+    "walk" : {
+        "frames":[ 5, 6 , 5, 7 ],
+        "loop": true,
+        "speed": 8 
+    },
+    "death" : {
+        "frames":[ 8,9,10,11,12 ],
+        "loop": false,
+        "speed": 12 
+    }
+}

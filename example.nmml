@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+  <app title="SpriteSheet Loader Example" file="Game" main="Game" package="com.underscorediscovery.TexturePackerJSONTest" version="1.0.0" company="underscorediscovery" />
+  
+  <set name="fullscreen" if="target_ios" />
+  <set name="fullscreen" if="target_android" />
+  
+  <ios deployment="4.3" binaries="armv6" devices="universal" />  
+
+  <window width="960" height="640"  background="#f0f0f0" fps="60" orientation="portrait" resizable="false" />
+ 
+  <set name="BUILD_DIR" value="bin" />
+
+  <classpath name="Source" />
+
+  <haxelib name="nme" />
+  <haxelib name="HxJson2" />
+  <haxelib name="spritesheet" />
+
+  <assets path="Assets" rename="assets" include="*" exclude="nme.svg" />
+
+  <ndll name="std" />
+  <ndll name="regexp" />
+  <ndll name="zlib" />
+  <ndll name="nme" haxelib="nme" />
+
+</project>

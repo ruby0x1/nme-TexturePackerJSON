@@ -7,7 +7,7 @@ License : MIT for code
 
 Please don't use this sprite as your own, it is just for demonstration purposes. It is not available for use at all. Thanks!
 
-**Notes : **
+**Notes :**
 
 - Uses Joshua Granick's Haxelib called spritesheet
 - Requires the hxJson2 parsing lib

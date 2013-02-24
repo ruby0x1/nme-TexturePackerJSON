@@ -72,7 +72,7 @@ class Game extends Sprite {
 
             //And finally finally add an update loop
         addEventListener(Event.ENTER_FRAME, function(e){
-            sprite.update(16);
+            sprite.update(16);  //16 milliseconds delta time (don't hardcode :))
         });
 
     } //construct
